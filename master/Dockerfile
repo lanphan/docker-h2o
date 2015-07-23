@@ -18,7 +18,7 @@ RUN \
   build-essential
 
 WORKDIR /tmp
-RUN git clone https://github.com/kazuho/h2o.git
+RUN git clone https://github.com/h2o/h2o.git
 WORKDIR /tmp/h2o
 
 RUN git submodule update --init --recursive
